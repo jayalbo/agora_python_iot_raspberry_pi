@@ -1,0 +1,7 @@
+# For ARM64 (Raspberry Pi), use version 2.0.0 which has better compatibility
+# For x86_64, you can use the latest version
+agora-python-server-sdk==2.0.0
+# On Raspberry Pi, opencv-python may fail to build. Use system package instead:
+# sudo apt install python3-opencv
+# Or try the headless version:
+opencv-python-headless>=4.8.0

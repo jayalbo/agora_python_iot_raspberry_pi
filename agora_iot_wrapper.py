@@ -1,6 +1,5 @@
 """
 Python wrapper for Agora IoT/RTSA SDK
-This SDK is more stable on ARM64 than the Server SDK
 """
 import ctypes
 import os
